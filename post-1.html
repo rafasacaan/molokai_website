@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,6 +36,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/atom-one-light.min.css">
+  <script src="js/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
 
   <!-- SCRIPTS
@@ -44,66 +54,45 @@
 
 
 
-<body class="code-snippets-visible">
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-
-    <!-- body -->
-    <div class="row" style="text-align: center;">
-
-
-      <!-- Logo Main -->
-      <div style="margin-top: 40%">
-        <img src="images/geom1.png"  style="width: 17%;" alt="geometric image"  class="logo">
-        </br>
-        <img src="images/molokai3.png"  alt="moloko image"  class="logo">
-        <!-- <img src="images/rainbow2.png"  alt="moloko rainbow" height="100px"  class="logo">
-        <h3>molokai lab</h3> -->
-      </div>
-      <!-- End of Logo Main -->
-    </div>
-    <!-- End of Logo Main -->
-
-
-    <!-- navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="index.html">home</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="blog.html" >blog</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#about">about</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#more" >more</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- End of navbar-->
-
-
+<body class="code-snippets-visible">  
+    <div class="container">
     <!-- Main text-->
-    <div class="row" style="text-align: center; margin-top: 5%">
-      <p>
-        Stay playful, </br>
-        be patient, </br>
-        enjoy yourself, </br>
-        contribute, </br>
-        work hard, </br>
-        and rock on.
-      </p>
+      <div class="row" style="text-align: left; margin-top: 5%">
+        <a href="blog.html">back</a>
+        <hr>
+        <h2>Whatever Title</h2>
+        <h3>Introduction</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae bibendum mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer tincidunt purus sed nunc fringilla dapibus. Ut non orci vitae lorem iaculis convallis id a est. Mauris aliquet tristique cursus.</p>
+        
+        <h3>Python Code Example</h3>
+        <pre><code class="python">
+        def greet(name):
+        print(f"Hello, {name}!")
+        
+        greet("Alice")
+        greet("Bob")
+        </code>
+        <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+            hljs.highlightBlock(block);
+            });
+        });
+        </script>
+        </pre>
+        <h3>Conclusion</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae bibendum mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer tincidunt purus sed nunc fringilla dapibus. Ut non orci vitae lorem iaculis convallis id a est. Mauris aliquet tristique cursus.</p>  
     </div>
     <!-- End Main Text-->
 
-
-  <!-- Footer -->
-  <!-- <div class="row" style="text-align: center; margin-top: 50%"> -->
-  <!-- <div class="row"> -->
+    <!-- Footer -->
+    <!-- <div class="row" style="text-align: center; margin-top: 50%"> -->
+    <!-- <div class="row"> -->
     <div class="footer">
-        by rafael sacaan amunátegui
+      by rafael sacaan amunátegui
     </div>
-  <!-- </div> -->
-  <!-- End of Footer -->
-
+    <!-- </div> -->
+    <!-- End of Footer -->
 
   <!-- END of Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -114,3 +103,4 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
+
