@@ -1,3 +1,3 @@
 # molokai_website
 
-A place to upload creative experiments related to filming, recording and coding.
+A space to upload creative experiments related to the arts through code.
